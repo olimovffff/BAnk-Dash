@@ -1,0 +1,16 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.maincontaneir {
+  padding: 0 50px 0 50px;
+}
+aside {
+  background: #fff;
+  padding-top: 20px;
+}
+.card {
+  width: 36px;
+  height: 36px;
+}
