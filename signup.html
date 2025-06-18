@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="signup.css" />
+  </head>
+  <body>
+    <div class="maincontaneir">
+      <header>
+        <div class="imgdiv">
+          <img src="assets/Subtract (1).png" alt="logo" class="Subtract" />
+          <img src="assets/h.png" alt="logo" class="img1" />
+        </div>
+      </header>
+      <section>
+        <div class="contaneir">
+          <p class="Create">Create your account</p>
+        </div>
+        <div class="contaneir1">
+          <label for="olma">Name</label>
+          <input type="text" placeholder="name" class="nameinput" id="iname" />
+          <label for="olma">Email</label>
+          <input
+            type="email"
+            placeholder="email"
+            class="nameinput"
+            id="iname1"
+          />
+          <label for="olma">Password</label>
+          <input
+            type="password"
+            placeholder="password"
+            class="nameinput"
+            id="iname2"
+          />
+          <label for="olma">Confirm Password</label>
+          <input
+            type="password"
+            placeholder="confirm password"
+            class="nameinput"
+            id="iname3"
+          />
+          <div class="smartcontaneir">
+            <input type="checkbox" name="" id="color" />
+            <p class="sentense">
+              I understood the <span class="sentensespan">terms & policy.</span>
+            </p>
+          </div>
+          <p id="statusp">
+
+          </p>
+          <button class="btn1" onclick="olma()">SIGN UP</button>
+          <p class="sign">or sign up with</p>
+          <div class="btndiv">
+            <button class="btn2">
+              <img src="assets/google.png" alt="logo" class="google" />
+            </button>
+            <button class="btn3">
+              <img src="assets/facebook.png" alt="logo" class="facebook" />
+            </button>
+            <button class="btn4">
+              <img src="assets/twitter.png" alt="logo" class="twitter" />
+            </button>
+          </div>
+          <p class="sentense1">
+            Have an account? <span class="sentensespan1">SIGN IN</span>
+          </p>
+        </div>
+      </section>
+    </div>
+    <script src="signup.js"></script>
+  </body>
+</html>
